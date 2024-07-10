@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		084B07E32C22FDC000EE4B4F /* train_tracker_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B07E22C22FDC000EE4B4F /* train_tracker_iosApp.swift */; };
-		084B07E52C22FDC000EE4B4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B07E42C22FDC000EE4B4F /* ContentView.swift */; };
 		084B07E72C22FDC100EE4B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 084B07E62C22FDC100EE4B4F /* Assets.xcassets */; };
 		084B07EA2C22FDC100EE4B4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 084B07E92C22FDC100EE4B4F /* Preview Assets.xcassets */; };
 		084B07F42C22FDC100EE4B4F /* train_tracker_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B07F32C22FDC100EE4B4F /* train_tracker_iosTests.swift */; };
 		084B07FE2C22FDC100EE4B4F /* train_tracker_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B07FD2C22FDC100EE4B4F /* train_tracker_iosUITests.swift */; };
 		084B08002C22FDC100EE4B4F /* train_tracker_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B07FF2C22FDC100EE4B4F /* train_tracker_iosUITestsLaunchTests.swift */; };
+		084B080D2C22FDE600EE4B4F /* Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B080C2C22FDE600EE4B4F /* Lines.swift */; };
+		086186182C298C6800C03A6D /* LineCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086186172C298C6800C03A6D /* LineCard.swift */; };
+		0861861F2C2A5D3400C03A6D /* hextocolor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0861861E2C2A5D3400C03A6D /* hextocolor.swift */; };
+		086186212C2A5F5100C03A6D /* LineCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086186202C2A5F5100C03A6D /* LineCardView.swift */; };
+		08FE59472C279D150077CFD0 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FE59462C279D150077CFD0 /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		084B07DF2C22FDC000EE4B4F /* train-tracker-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "train-tracker-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		084B07E22C22FDC000EE4B4F /* train_tracker_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = train_tracker_iosApp.swift; sourceTree = "<group>"; };
-		084B07E42C22FDC000EE4B4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		084B07E62C22FDC100EE4B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		084B07E92C22FDC100EE4B4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		084B07EF2C22FDC100EE4B4F /* train-tracker-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "train-tracker-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,11 @@
 		084B07F92C22FDC100EE4B4F /* train-tracker-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "train-tracker-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		084B07FD2C22FDC100EE4B4F /* train_tracker_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = train_tracker_iosUITests.swift; sourceTree = "<group>"; };
 		084B07FF2C22FDC100EE4B4F /* train_tracker_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = train_tracker_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		084B080C2C22FDE600EE4B4F /* Lines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lines.swift; sourceTree = "<group>"; };
+		086186172C298C6800C03A6D /* LineCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineCard.swift; sourceTree = "<group>"; };
+		0861861E2C2A5D3400C03A6D /* hextocolor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hextocolor.swift; sourceTree = "<group>"; };
+		086186202C2A5F5100C03A6D /* LineCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineCardView.swift; sourceTree = "<group>"; };
+		08FE59462C279D150077CFD0 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 		084B07D62C22FDC000EE4B4F = {
 			isa = PBXGroup;
 			children = (
+				08FE59462C279D150077CFD0 /* test.swift */,
 				084B07E12C22FDC000EE4B4F /* train-tracker-ios */,
 				084B07F22C22FDC100EE4B4F /* train-tracker-iosTests */,
 				084B07FC2C22FDC100EE4B4F /* train-tracker-iosUITests */,
@@ -94,8 +103,10 @@
 		084B07E12C22FDC000EE4B4F /* train-tracker-ios */ = {
 			isa = PBXGroup;
 			children = (
+				0861861B2C2A518000C03A6D /* Extensions */,
+				086186162C298C0200C03A6D /* Models */,
+				086186152C298BFA00C03A6D /* Views */,
 				084B07E22C22FDC000EE4B4F /* train_tracker_iosApp.swift */,
-				084B07E42C22FDC000EE4B4F /* ContentView.swift */,
 				084B07E62C22FDC100EE4B4F /* Assets.xcassets */,
 				084B07E82C22FDC100EE4B4F /* Preview Content */,
 			);
@@ -125,6 +136,31 @@
 				084B07FF2C22FDC100EE4B4F /* train_tracker_iosUITestsLaunchTests.swift */,
 			);
 			path = "train-tracker-iosUITests";
+			sourceTree = "<group>";
+		};
+		086186152C298BFA00C03A6D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				086186172C298C6800C03A6D /* LineCard.swift */,
+				086186202C2A5F5100C03A6D /* LineCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		086186162C298C0200C03A6D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				084B080C2C22FDE600EE4B4F /* Lines.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0861861B2C2A518000C03A6D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0861861E2C2A5D3400C03A6D /* hextocolor.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				084B07E52C22FDC000EE4B4F /* ContentView.swift in Sources */,
+				08FE59472C279D150077CFD0 /* test.swift in Sources */,
 				084B07E32C22FDC000EE4B4F /* train_tracker_iosApp.swift in Sources */,
+				086186212C2A5F5100C03A6D /* LineCardView.swift in Sources */,
+				084B080D2C22FDE600EE4B4F /* Lines.swift in Sources */,
+				086186182C298C6800C03A6D /* LineCard.swift in Sources */,
+				0861861F2C2A5D3400C03A6D /* hextocolor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

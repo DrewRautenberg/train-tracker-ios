@@ -11,7 +11,7 @@ import SwiftUI
 struct train_tracker_iosApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LineCardView(lines: CTALines.data)
         }
     }
 }
