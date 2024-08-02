@@ -18,7 +18,7 @@ struct LineCardView: View {
                 .listRowBackground(Color(hex: lines.hexCode))
             }
             .navigationTitle("CTA Lines")
-        }
+    }
     }
 }
 
