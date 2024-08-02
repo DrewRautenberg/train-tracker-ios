@@ -13,7 +13,7 @@ struct Stations : Decodable{
 }
 
 func fetchStations(line: String) async throws -> [Stations]{
-    let url = URL(string: "http://100.75.49.124/stations/(line)")!
+    let url = URL(string: "http://100.75.49.124/stations/\(line)")!
     let (data, _) = try await URLSession.shared.data(from: url)
     let decoded = try JSONDecoder().decode([Stations].self, from: data)
     return decoded
