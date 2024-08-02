@@ -18,7 +18,7 @@
 		0861861F2C2A5D3400C03A6D /* hextocolor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0861861E2C2A5D3400C03A6D /* hextocolor.swift */; };
 		086186212C2A5F5100C03A6D /* LineCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086186202C2A5F5100C03A6D /* LineCardView.swift */; };
 		0892CE7E2C5D1ABD0050DF93 /* LineStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0892CE7D2C5D1ABD0050DF93 /* LineStationView.swift */; };
-		0892CE802C5D1EC30050DF93 /* apiStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0892CE7F2C5D1EC30050DF93 /* apiStations.swift */; };
+		0892CE802C5D1EC30050DF93 /* apiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0892CE7F2C5D1EC30050DF93 /* apiCall.swift */; };
 		08FE59472C279D150077CFD0 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FE59462C279D150077CFD0 /* test.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +54,7 @@
 		0861861E2C2A5D3400C03A6D /* hextocolor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hextocolor.swift; sourceTree = "<group>"; };
 		086186202C2A5F5100C03A6D /* LineCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineCardView.swift; sourceTree = "<group>"; };
 		0892CE7D2C5D1ABD0050DF93 /* LineStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineStationView.swift; sourceTree = "<group>"; };
-		0892CE7F2C5D1EC30050DF93 /* apiStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiStations.swift; sourceTree = "<group>"; };
+		0892CE7F2C5D1EC30050DF93 /* apiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiCall.swift; sourceTree = "<group>"; };
 		08FE59462C279D150077CFD0 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				084B080C2C22FDE600EE4B4F /* Lines.swift */,
-				0892CE7F2C5D1EC30050DF93 /* apiStations.swift */,
+				0892CE7F2C5D1EC30050DF93 /* apiCall.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -302,7 +302,7 @@
 				08FE59472C279D150077CFD0 /* test.swift in Sources */,
 				084B07E32C22FDC000EE4B4F /* train_tracker_iosApp.swift in Sources */,
 				086186212C2A5F5100C03A6D /* LineCardView.swift in Sources */,
-				0892CE802C5D1EC30050DF93 /* apiStations.swift in Sources */,
+				0892CE802C5D1EC30050DF93 /* apiCall.swift in Sources */,
 				084B080D2C22FDE600EE4B4F /* Lines.swift in Sources */,
 				086186182C298C6800C03A6D /* LineCard.swift in Sources */,
 				0861861F2C2A5D3400C03A6D /* hextocolor.swift in Sources */,
